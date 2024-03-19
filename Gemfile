@@ -49,7 +49,7 @@ end
 gem 'devise'
 gem 'devise_token_auth'
 gem 'carrierwave'
-gem 'fog'
+gem 'fog-aws'
 
 gem 'pry-rails'
 gem 'pry-byebug'
