@@ -2,6 +2,8 @@ FROM ruby:latest
 
 ARG RUBYGEMS_VERSION=3.4.6
 
+RUN apt-get update -qq && apt-get install -y vim graphviz
+
 RUN mkdir /api
 
 WORKDIR /api
